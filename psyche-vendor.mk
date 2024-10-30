@@ -267,6 +267,7 @@ PRODUCT_PACKAGES += \
     libresampler \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
+    libstagefrightdolby \
     libhwdap \
     libswgamedap \
     libswvqe \
