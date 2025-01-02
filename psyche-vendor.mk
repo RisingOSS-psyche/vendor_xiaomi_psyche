@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/psyche
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/displayconfig/display_id_19260527152667265.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_19260527152667265.xml \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/displayconfig/display_id_4630946545580055169.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055169.xml \
     vendor/xiaomi/psyche/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/psyche/proprietary/vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb \
     vendor/xiaomi/psyche/proprietary/vendor/etc/acdbdata/Tutu/Tutu_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Tutu/Tutu_General_cal.acdb \
@@ -102,6 +104,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/psyche/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/psyche/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/psyche/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/ltm_config_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/mdss_dsi_l3a_mp_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_l3a_mp_42_02_0a_dsc_cmd_mi.xml \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLutInfo.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLutInfo.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_0.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_1.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_10.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_11.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_12.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_13.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_14.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_15.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_16.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_2.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_3.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_4.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_5.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_6.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_7.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_8.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/miLut_9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/miLut_9.txt \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_42_02_0a_cmd_dsc_dsi_panel.xml \
     vendor/xiaomi/psyche/proprietary/vendor/etc/sensors/calibratedCheck.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/calibratedCheck.json \
     vendor/xiaomi/psyche/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/xiaomi/psyche/proprietary/vendor/etc/sensors/config/lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dso_0.json \
@@ -174,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/psyche/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/psyche/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/psyche/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/tunings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/tunings.txt \
     vendor/xiaomi/psyche/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/xiaomi/psyche/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
     vendor/xiaomi/psyche/proprietary/vendor/firmware/aw8697_rtp_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_rtp_1.bin \
