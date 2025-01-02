@@ -260,10 +260,8 @@ PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioconfigstore \
-    libaudioparsers \
     libaudioroute_ext \
     libdeccfg \
-    libhdmipassthru \
     libresampler \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
@@ -416,7 +414,6 @@ PRODUCT_PACKAGES += \
     libfocus \
     libft2vendor \
     libgf_hal \
-    libhta \
     libipebpsstriping \
     libmialgo_ie_preview \
     libmialgo_image_colourkeeping \
@@ -437,7 +434,6 @@ PRODUCT_PACKAGES += \
     libmulticam_optical_zoom_control \
     libmulticam_video_optical_zoom \
     libnotifyaudiohal \
-    libnpu \
     libofflinelog \
     libos \
     libremosaic_wrapper \
