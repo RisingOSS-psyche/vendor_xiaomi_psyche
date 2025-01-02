@@ -93,10 +93,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/psyche/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
     vendor/xiaomi/psyche/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/psyche/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/xiaomi/psyche/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
+    vendor/xiaomi/psyche/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/xiaomi/psyche/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
@@ -248,6 +251,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/psyche/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    libdolbyottcontrol \
+    libdovi_omx \
+    libdapparamstorage \
+    vendor.dolby.hardware.dms@2.0 \
     audio.primary.psyche \
     liba2dpoffload_psyche \
     libaudio_log_utils \
@@ -255,8 +262,14 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libaudioroute_ext \
+    libdeccfg \
     libhdmipassthru \
     libresampler \
+    libstagefright_soft_ac4dec \
+    libstagefright_soft_ddpdec \
+    libhwdap \
+    libswgamedap \
+    libswvqe \
     vendor.qti.hardware.audiohalext@1.0 \
     libxlog \
     com.qti.actuator.psyche_sunny_s5k5e9yx04_dw9800_macro_actuator \
@@ -395,6 +408,7 @@ PRODUCT_PACKAGES += \
     libcvp2_hfi \
     libcvp_common \
     libcvpcpuRev_skel \
+    libdlbdsservice \
     libdng_sdk2vendor \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
@@ -460,6 +474,7 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
+    vendor.dolby.hardware.dms@2.0-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     capi_v2_cirrus_sp \
@@ -503,8 +518,10 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
+    manifest_vendor.dolby.hardware.dms.xml \
     batterysecret \
     hvdcp_opti \
+    vendor.dolby.hardware.dms@2.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     init.qcom.sensors \
     init.qti.chg_policy \
