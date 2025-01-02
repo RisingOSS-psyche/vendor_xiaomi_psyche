@@ -255,8 +255,8 @@ PRODUCT_PACKAGES += \
     libdovi_omx \
     libdapparamstorage \
     vendor.dolby.hardware.dms@2.0 \
-    audio.primary.psyche \
-    liba2dpoffload_psyche \
+    audio.primary.kona \
+    liba2dpoffload \
     libaudio_log_utils \
     libaudiocloudctrl \
     libaudioconfigstore \
